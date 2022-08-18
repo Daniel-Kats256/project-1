@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: sans-serif;
+        }
+        .title{
+            height: 10vh;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .title>div:nth-child(1) img{
+            height: 90px;
+            width: 90px;
+            border-radius: 100%;
+       }
+       .title>div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 10px;
+        padding-top: 10px;
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+       }
+       .search{
+        height: 40px;
+        width: 90%;
+        box-shadow: 0 0 5px black ;
+        margin-top: 50px;
+        border-radius: 10px;
+       }
+       .search div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+       }
+       p{
+        color: tomato;
+        font-size: 15px;
+        font-weight: bold;
+       }
+
+       .boxes{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+       }
+       .boxes div{
+        height: 100%;
+        width: 10%;
+        border-radius: 10px;
+        margin: 5px;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+       .boxes div img{
+        height: 80px;
+        width: 80px;
+        border-radius: 100%;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="title">
+        <div>
+            <img src="images/one.jpg" alt="">
+        </div>
+        <div>
+            DANIELDEVS
+        </div>
+    </div>
+    <div class="search">
+        <div> <p>type here</p></div>
+    </div>
+    <div class="boxes">
+        <div>
+            <img src="images/book.jpg" alt="">
+            <p>home</p>
+        </div>
+        <div>
+            <img src="images/book2.jpg" alt="">
+            <p>about</p>
+        </div>
+        <div>
+            <img src="images/book3.jpg" alt="">
+           <p> contact me</p>
+        </div>
+        <div>
+            <img src="images/logo.png" alt="">
+            <p>search</p>
+        </div>
+        <div>
+            <img src="images/four.jpg" alt="">
+            <p>blog</p>
+        </div>
+        <div>
+            <img src="images/three.jpg" alt="">
+            <p>activities</p>
+        </div>
+    </div>
+</body>
+</html>
